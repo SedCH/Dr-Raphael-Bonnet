@@ -1,0 +1,5 @@
+// Simple validation du formulaire
+document.querySelector("form").addEventListener("submit", function(event) {
+  alert("Merci de nous avoir contactés ! Nous vous répondrons rapidement.");
+  event.preventDefault(); // Empêche l'envoi pour la démo
+});
